@@ -1,0 +1,58 @@
+.title {
+  margin: 50px;
+}
+
+.nome-badge {
+  margin-left: 50px;
+  width: 400px;
+}
+
+.button-nome-badge {
+  margin-left: 455px;
+  margin-top: -65px;
+}
+
+.descricao-badge {
+  margin-left: 50px;
+  margin-top: 100px;
+  width: 700px;
+}
+
+.button-descricao-badge {
+  margin-left: 755px;
+  margin-top: -65px;
+}
+
+.image {
+  background-color: rgb(231, 231, 231);
+  border-radius: 5%;
+  margin-left: 670px;
+  margin-top: -220px;
+  width: 150px;
+  height: 130px;
+}
+
+.text-image {
+  font-weight: bold;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.nivel-badge {
+  margin-left: 50px;
+  margin-top: 150px;
+  width: 300px;
+}
+
+.tipo-badge {
+  margin-left: 530px;
+  margin-top: -200px;
+  width: 300px;
+}
+
+.button-cadastrar-badge {
+  margin-left: 710px;
+  margin-top: 50px;
+}
