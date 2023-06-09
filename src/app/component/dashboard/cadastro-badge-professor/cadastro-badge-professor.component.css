@@ -39,20 +39,3 @@
   margin-left: 10px;
   cursor: pointer;
 }
-
-.nivel-badge {
-  margin-left: 50px;
-  margin-top: 150px;
-  width: 300px;
-}
-
-.tipo-badge {
-  margin-left: 530px;
-  margin-top: -200px;
-  width: 300px;
-}
-
-.button-cadastrar-badge {
-  margin-left: 710px;
-  margin-top: 50px;
-}

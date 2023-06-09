@@ -1,0 +1,86 @@
+<div class="tipo-badge">
+  <h3>Selecione o tipo de Badge:</h3>
+  <mat-selection-list #badges>
+    <mat-list-option *ngFor="let shoe of tipobadge">
+      {{ shoe }}
+    </mat-list-option>
+  </mat-selection-list>
+</div>
+
+<div class="tipo-badge-aluno">
+  <h3>Selecione o Aluno <br><strong>(Caso Escolha a Opção Número 1)</strong></h3>
+  <div class="nome-aluno">
+    <mat-form-field>
+      <mat-label>Nome</mat-label>
+      <mat-select>
+        <mat-option value="one">Fulano de Tal 1</mat-option>
+        <mat-option value="two">Fulano de Tal 2</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div class="curso">
+    <mat-form-field>
+      <mat-label>Curso</mat-label>
+      <mat-select>
+        <mat-option value="one">Ciencia da Computação</mat-option>
+        <mat-option value="two">Analise e Desenvolvimento de Sistemas</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div class="periodo">
+    <mat-form-field>
+      <mat-label>Período</mat-label>
+      <mat-select>
+        <mat-option value="one">2023.1</mat-option>
+        <mat-option value="two">2023.2</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+</div>
+
+<div class="tipo-badge-situacao-aprendizagem">
+  <h3>
+    Selecione a Situação de Aprendizagem <br><strong>(Caso escolha a opção número 2)</strong></h3>
+  <mat-form-field>
+    <mat-label>Unidade Curricular</mat-label>
+    <mat-select>
+      <mat-option value="one">Programação 2</mat-option>
+      <mat-option value="two">Gerencia de Projeto</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+
+<div class="tipo-badge-forum">
+  <h3>Selecione as Opões do Fórum <br><strong>(Caso escolha a opção número 3)</strong></h3>
+  <div class="responder-corretamente">
+    <mat-form-field>
+      <mat-label>Quantidade de <br>Respostas Corretas</mat-label>
+      <mat-select>
+        <mat-option value="one">10</mat-option>
+        <mat-option value="two">20</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div class="qtd-curtida">
+    <mat-form-field>
+      <mat-label>Quanditdade <br>de Curtidas</mat-label>
+      <mat-select>
+        <mat-option value="one">10</mat-option>
+        <mat-option value="two">20</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div class="qtd-comentario">
+    <mat-form-field>
+      <mat-label>Quantidade <br>de Comentários</mat-label>
+      <mat-select>
+        <mat-option value="one">10</mat-option>
+        <mat-option value="two">20</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+</div>
